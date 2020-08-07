@@ -8,7 +8,7 @@ import SignInSignUpPage from "./pages/sign-in-sign-up/sign-in-sign-up.component"
 import HomePage from "./pages/homepage/homepage.component";
 import ShopPage from "./pages/shop/shop.component";
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
-import { setCurrentUser } from "./redux/user/user.action";
+import { setCurrentUser } from "./redux/user/user.actions";
 
 class App extends React.Component {
   unsubcribeFromAuth = null;
